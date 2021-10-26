@@ -17,8 +17,13 @@ Plug 'gruvbox-community/gruvbox'
 Plug 'leafgarland/typescript-vim'
 Plug 'ap/vim-css-color'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 
+" Plug 'valloric/youcompleteme'
 
 call plug#end()
 
 colorscheme gruvbox
+let g:prettier#autoformat = 1
+let g:prettier#autoformat_require_pragma = 0
