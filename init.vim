@@ -20,8 +20,6 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 
-" Plug 'valloric/youcompleteme'
-
 call plug#end()
 
 colorscheme gruvbox
